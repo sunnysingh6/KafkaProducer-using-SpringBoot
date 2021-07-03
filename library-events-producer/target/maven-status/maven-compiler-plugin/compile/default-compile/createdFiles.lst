@@ -1,0 +1,10 @@
+com\learnkafka\libraryeventsproducer\controller\LibraryEventControllerAdvice.class
+com\learnkafka\libraryeventsproducer\producer\LibraryEventProducer$2.class
+com\learnkafka\libraryeventsproducer\domain\LibraryEvent.class
+com\learnkafka\libraryeventsproducer\producer\LibraryEventProducer$1.class
+com\learnkafka\libraryeventsproducer\producer\LibraryEventProducer.class
+com\learnkafka\libraryeventsproducer\domain\LibraryEventType.class
+com\learnkafka\libraryeventsproducer\LibraryEventsProducerApplication.class
+com\learnkafka\libraryeventsproducer\controller\LibraryEventController.class
+com\learnkafka\libraryeventsproducer\domain\Book.class
+com\learnkafka\libraryeventsproducer\config\AutoCreateConfig.class

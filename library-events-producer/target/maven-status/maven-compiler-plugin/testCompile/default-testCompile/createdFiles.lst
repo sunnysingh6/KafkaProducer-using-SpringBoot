@@ -1,0 +1,4 @@
+com\learnkafka\libraryeventsproducer\integration\controller\LibraryEventControllerIntegrationTest.class
+com\learnkafka\libraryeventsproducer\LibraryEventProducerUnitTest.class
+com\learnkafka\libraryeventsproducer\LibraryEventsProducerApplicationTests.class
+com\learnkafka\libraryeventsproducer\unit\controller\producer\LibraryControllerUnitTest.class

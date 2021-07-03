@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.learnkafka.libraryeventsproducer.integration.controller.LibraryEventControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 7.865 s <<< FAILURE! - in com.learnkafka.libraryeventsproducer.integration.controller.LibraryEventControllerIntegrationTest
+postLibraryEvent  Time elapsed: 1.228 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{"bookId":"123","bookName":"Dilip","bookAuthor":"Kafka using SpringBoot test"}> but was: <{"bookId":123,"bookAuthor":"Dilip","bookName":"Kafka using SpringBoot test"}>
+	at com.learnkafka.libraryeventsproducer.integration.controller.LibraryEventControllerIntegrationTest.postLibraryEvent(LibraryEventControllerIntegrationTest.java:82)
+
+putLibraryEvent  Time elapsed: 0.121 s  <<< ERROR!
+org.springframework.web.client.RestClientException: 
+Error while extracting response for type [class com.learnkafka.libraryeventsproducer.domain.LibraryEvent] and content type [application/json]; nested exception is org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'please': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'please': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 8]
+	at com.learnkafka.libraryeventsproducer.integration.controller.LibraryEventControllerIntegrationTest.putLibraryEvent(LibraryEventControllerIntegrationTest.java:96)
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: 
+JSON parse error: Unrecognized token 'please': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'please': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 8]
+	at com.learnkafka.libraryeventsproducer.integration.controller.LibraryEventControllerIntegrationTest.putLibraryEvent(LibraryEventControllerIntegrationTest.java:96)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unrecognized token 'please': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (sun.net.www.protocol.http.HttpURLConnection$HttpInputStream); line: 1, column: 8]
+	at com.learnkafka.libraryeventsproducer.integration.controller.LibraryEventControllerIntegrationTest.putLibraryEvent(LibraryEventControllerIntegrationTest.java:96)
+

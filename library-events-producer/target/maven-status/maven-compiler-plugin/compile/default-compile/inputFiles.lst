@@ -1,0 +1,8 @@
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\domain\Book.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\config\AutoCreateConfig.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\controller\LibraryEventControllerAdvice.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\domain\LibraryEvent.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\controller\LibraryEventController.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\producer\LibraryEventProducer.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\domain\LibraryEventType.java
+C:\Kafka Code\library-events-producer\src\main\java\com\learnkafka\libraryeventsproducer\LibraryEventsProducerApplication.java

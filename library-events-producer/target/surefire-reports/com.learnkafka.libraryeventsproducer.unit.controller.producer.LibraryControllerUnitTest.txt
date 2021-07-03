@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.learnkafka.libraryeventsproducer.unit.controller.producer.LibraryControllerUnitTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.549 s <<< FAILURE! - in com.learnkafka.libraryeventsproducer.unit.controller.producer.LibraryControllerUnitTest
+postLibraryEvent  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.ClassCastException: org.hamcrest.core.Is cannot be cast to com.learnkafka.libraryeventsproducer.domain.LibraryEvent
+	at com.learnkafka.libraryeventsproducer.unit.controller.producer.LibraryControllerUnitTest.postLibraryEvent(LibraryControllerUnitTest.java:44)
+
+postLibraryEvent_4xx  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException: bookId is marked non-null but is null
+	at com.learnkafka.libraryeventsproducer.unit.controller.producer.LibraryControllerUnitTest.postLibraryEvent_4xx(LibraryControllerUnitTest.java:54)
+
+updateLibraryEvent_withNullLibraryEventId  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.ClassCastException: org.hamcrest.core.Is cannot be cast to com.learnkafka.libraryeventsproducer.domain.LibraryEvent
+	at com.learnkafka.libraryeventsproducer.unit.controller.producer.LibraryControllerUnitTest.updateLibraryEvent_withNullLibraryEventId(LibraryControllerUnitTest.java:92)
+
+updateLibraryEvent  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.ClassCastException: org.hamcrest.core.Is cannot be cast to com.learnkafka.libraryeventsproducer.domain.LibraryEvent
+	at com.learnkafka.libraryeventsproducer.unit.controller.producer.LibraryControllerUnitTest.updateLibraryEvent(LibraryControllerUnitTest.java:74)
+
